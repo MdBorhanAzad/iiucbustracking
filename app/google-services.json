@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "890484066963",
+    "firebase_url": "https://iiucbustracking.firebaseio.com",
+    "project_id": "iiucbustracking",
+    "storage_bucket": "iiucbustracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890484066963:android:d27140ef1c5f5d95",
+        "android_client_info": {
+          "package_name": "com.example.fazlulhoque.iiucbustracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890484066963-7bvd9tu67u58a1ousg4r85igoe16sac5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbJvyU-g6suGOdaEi4tno2nk-QqqM5lOE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

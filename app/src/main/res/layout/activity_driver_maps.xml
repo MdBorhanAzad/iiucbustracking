@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context="com.example.fazlulhoque.iiucbustracking.Driver.DriverMapsActivity">
+
+    <FrameLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.fazlulhoque.iiucbustracking.Driver.DriverMapsActivity" >
+        <!--<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:id="@+id/btnLogout"/>-->
+
+        <Button
+            android:id="@+id/btnPoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="poke"
+            tools:ignore="HardcodedText"
+            android:background="@drawable/btn_driveruser"
+            android:textColor="#ffffff"
+            android:layout_marginStart="54dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="200dp" />
+
+
+        <fragment
+            android:id="@+id/map"
+            class="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="530dp"
+            android:layout_marginTop="60dp" />
+
+
+
+
+    </FrameLayout>
+
+    <include
+        layout="@layout/app_bar_driver_maps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_driver_maps"
+        app:menu="@menu/activity_driver_maps_drawer"
+        android:background="#222231"
+        app:itemTextColor="@color/sober"
+        app:itemIconTint="@color/sober"/>
+
+
+
+</android.support.v4.widget.DrawerLayout>
